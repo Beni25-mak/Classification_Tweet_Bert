@@ -19,4 +19,4 @@ La taille de notre dataset est de **39650** et **3 variables (ou colonnes)** :
  - *2eme colonne* : **tweet**, ici nous avons les textes ou les tweets
  - *3eme colonne* : **type** ou la catégorisation des textes.
 
-**N.B :** nous avons utilisé un echantillon de 1000 textes, pour palier au problème de memoire, vous pouvez consulter cet article à la page 7 [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805)
+**N.B :** nous avons utilisé un echantillon de 1000 textes, pour palier au problème de memoire, vous pouvez consulter cet article à la page 7 [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805) et [transformer préprocessing sur le site huggingface](https://huggingface.co/docs/transformers/main/en/preprocessing)
