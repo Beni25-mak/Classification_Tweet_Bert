@@ -16,4 +16,4 @@ pour la mise en oeuvre de cette modélisation avec BERT.
 La taille de notre dataset est de 39650 et 3 variables (ou colonnes) :
  1ere colonne : Tweet_ID
  2eme colonne : tweet, ici nous avons les textes ou les tweets
- 3eme colonne : type ou la catégorisation des textes
+ 3eme colonne : type ou la catégorisation des textes.
