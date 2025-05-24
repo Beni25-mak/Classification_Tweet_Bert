@@ -12,9 +12,11 @@ Comme nous l'avons dit précédement, le projet utilise **BERT** (Bidirectional 
 
 ## Caractéristiques du modèle BERT
 
-## L'Architecture de BERT
+## 0. L'Architecture de BERT
 
 ![tiré dans le papier de BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](images/image_bert.png)
+
+Figure 1 : Procédures globales de pré-entraînement et de réglage fin pour BERT. Hormis les couches de sortie, les mêmes architectures sont utilisées pour le pré-entraînement et le réglage fin. Les mêmes paramètres de modèle pré-entraînés servent à initialiser les modèles pour différentes tâches en aval. Lors du réglage fin, tous les paramètres sont ajustés. [CLS] est un symbole spécial ajouté devant chaque exemple d’entrée, et [SEP] est un jeton de séparation spécial (par exemple, séparant les questions et les réponses).
 
 ### 1. Classification des tweets basée sur BERT
 
