@@ -42,11 +42,8 @@ La taille de notre dataset est de **39650** et **3 variables (ou colonnes)** :
  - *2eme colonne* : **tweet**, ici nous avons les textes ou les tweets
  - *3eme colonne* : **type** ou la catégorisation des textes.
 
-<!-- **N.B :** nous avons utilisé un echantillon de 1000 textes, pour palier au problème de memoire, vous pouvez consulter cet article à la page 7 [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805) et [transformer préprocessing sur le site huggingface](https://huggingface.co/docs/transformers/main/en/preprocessing) -->
+**N.B :** nous avons utilisé un echantillon de 1000 textes, pour palier au problème de memoire, vous pouvez consulter les articles [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805) et [transformer préprocessing sur le site huggingface](https://huggingface.co/docs/transformers/main/en/preprocessing), [REVISITING FEW-SAMPLE BERT FINE-TUNING](https://arxiv.org/pdf/2006.05987), [Effectiveness of Pre-training for Few-shot Intent Classification](https://arxiv.org/pdf/2109.05782), [A Comparison of LSTM and BERTfor Small Corpus](https://arxiv.org/pdf/2009.05451)
 
-Dans ce point, nous avions vérifier les données manquantes, un petit accent a été mis sur la description et visualisation de la variable **type**. 
-
-Nous avions lu des articles suivants pour attester le choix de l'échantillonnage concernant le problème des mémoires ou ressources des machines [REVISITING FEW-SAMPLE BERT FINE-TUNING](https://arxiv.org/pdf/2006.05987), [Effectiveness of Pre-training for Few-shot Intent Classification](https://arxiv.org/pdf/2109.05782), [A Comparison of LSTM and BERTfor Small Corpus](https://arxiv.org/pdf/2009.05451)
 
 **B. Transformations des données**
 
@@ -66,4 +63,4 @@ Cette architecture, nous a permis de transformer nos inputs et d'attendre une bo
 
 ## CONCLUSION
 
-Selon nos résultats expérimentaux, nous avons signalé que BERT peuvent améliorer les performances du classificateur dans différentes configurations de formation.
+Selon nos résultats expérimentaux, nous avons signalé que BERT peuvent améliorer les performances du classificateur dans différentes configurations de formation. notre modèle à fait une bonne classification, donc nous pouvons retravailler encore dans cette partie pour améliorer le travail.
