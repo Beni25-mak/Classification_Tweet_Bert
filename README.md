@@ -1,4 +1,11 @@
-# Analyse des types de Tweet avec BERT
+# Classification des types de Tweet avec BERT
+
+# Avant-propos
+
+Dans le cadre du cours de Deep Learning II, nous étions invité à fine-tuné le modèle de BERT pour la classification des types de tweets. un corpus a été mise en oeuvre pour ce travail. 
+
+C'était vraiment un bon exercice pour nous apprenant dans la spécialisation de Data science. nous ne cesserons pas de remercier l'Enseignement de Deep Learning II, pour ses enseignements et orientations dans le domaine de Deep Learning.
+
 
 ## Présentation du projet
 
