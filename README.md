@@ -34,7 +34,7 @@ Le modèle BERT utilisé dans ce projet a été optimisé spécifiquement pour l
 
 Par rapport à ce point nous voyons l'installations des toutes bibliothèques nécessaires pour la mise en oeuvre de cet entrainement avec BERT, nous avions vérifier faits quelques statistiques sur la variable type juste pour avoir une vision de l'ensemble.
 
-**a) Chargement de jeu des données**
+**Chargement de jeu des données**
 
 La taille de notre dataset est de **39650** et **3 variables (ou colonnes)** :
 
@@ -45,20 +45,29 @@ La taille de notre dataset est de **39650** et **3 variables (ou colonnes)** :
 **N.B :** nous avons utilisé un echantillon de 1000 textes, pour palier au problème de memoire, vous pouvez consulter les articles [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805) et [transformer préprocessing sur le site huggingface](https://huggingface.co/docs/transformers/main/en/preprocessing), [REVISITING FEW-SAMPLE BERT FINE-TUNING](https://arxiv.org/pdf/2006.05987), [Effectiveness of Pre-training for Few-shot Intent Classification](https://arxiv.org/pdf/2109.05782), [A Comparison of LSTM and BERTfor Small Corpus](https://arxiv.org/pdf/2009.05451)
 
 
-**B. Transformations des données**
+## Transformations des données
 
 Nous vous présentons l'architecture que nous avions utilisé tiré dans un papier. 
 ![Attention Is All You Need](images/image_transformers.png)
 
 Cette architecture, nous a permis de transformer nos inputs et d'attendre une bonne sortie 
 
-**C. Resultats avec gradio**
+## Modelisation avec Bert
+
+Durant cette phase, le modèle a été formé de manière non supervisée, sans données labellisées, sur deux tâches spécifiques.
+
+- Masked Language Modeling, c’est-à-dire la modélisation du langage masqué (MLM) consiste à demander au modèle de prédire des mots intentionnellement masqués dans une phrase. Le modèle devait deviner ces mots masqués en se basant sur le contexte fourni par les autres mots de la phrase.
+- Next Sentence Prediction, en français, prédiction de la phrase suivante (NSP). L’objectif est de faire prédire au modèle la séquence de mots suivante. Cette tâche vise à permettre au modèle de comprendre la continuité entre des phrases consécutives.
+
+Après la phase de pré-entraînement, BERT est fine-tuné sur des tâches spécifiques. Des couches supplémentaires s’ajoutent et sont entraînées sur des données annotées. Elles permettent à BERT de s’adapter aux exigences de tâches particulières. 
+
+## Resultats avec gradio
 
 ![sexual_violence](images/text_1.png)
 ![Physical_violence](images/text_2.png)
 ![Harmful_Traditional_practice](images/text_4.png)
 ![economic_violence](images/text_3.png)
-![emotional_violence](images/text_5.png
+![emotional_violence](images/text_5.png)
 
 
 ## CONCLUSION
