@@ -52,4 +52,5 @@ Nous avions lu des articles suivants pour attester le choix de l'échantillonnag
 
 Nous vous présentons l'architecture que nous avions utilisé tiré dans un papier. 
 ![Attention Is All You Need](images/image_transformers.png)
-cette architecture, nous a permis de transformer nos inputs et d'attendre une bonne sortie 
+
+Cette architecture, nous a permis de transformer nos inputs et d'attendre une bonne sortie 
