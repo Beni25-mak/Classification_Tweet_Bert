@@ -1,17 +1,17 @@
 # Classification des types de Tweet avec BERT
 
-# Avant-propos
+# Avant-Propos
 
 Dans le cadre du cours de Deep Learning II, nous étions invité à fine-tuné le modèle de BERT pour la classification des types de tweets. un corpus a été mise en oeuvre pour ce travail. 
 
-C'était vraiment un bon exercice pour nous apprenant dans la spécialisation de Data science. nous ne cesserons pas de remercier l'Enseignement de Deep Learning II, pour ses enseignements et orientations dans le domaine de Deep Learning.
+C'était vraiment un bon exercice pour nous apprenant dans la spécialisation de Data science. nous ne cesserons pas de remercier l'Enseignant du cours de Deep Learning II, pour ses enseignements et orientations dans le domaine de Deep Learning.
 
 
-## Présentation du projet
+## Présentation du Projet
 
 Ce projet vise à analyser les types des tweets sur un ensemble de données en s'appuyant sur le modèle BERT perfectionné pour la classification des tweets, avec une attention particulière portée à la détection des types des tweets. Grâce aux capacités avancées de compréhension du langage naturel de BERT, le modèle peut identifier et catégoriser efficacement les contenus dans les tweets, contribuant ainsi à un environnement en ligne plus sûr. 
 
-## Objectif du projet
+## Objectif du Projet
 
 L'objectif principal est de classer les tweets en fonction des types suivants: sexual_violence, Physical_violence, emotional_violence, Harmful_Traditional_practice, economic_violence. 
 
