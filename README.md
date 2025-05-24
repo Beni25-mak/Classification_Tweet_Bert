@@ -47,3 +47,9 @@ La taille de notre dataset est de **39650** et **3 variables (ou colonnes)** :
 Dans ce point, nous avions vérifier les données manquantes, un petit accent a été mis sur la description et visualisation de la variable **type**. 
 
 Nous avions lu des articles suivants pour attester le choix de l'échantillonnage concernant le problème des mémoires ou ressources des machines [REVISITING FEW-SAMPLE BERT FINE-TUNING](https://arxiv.org/pdf/2006.05987), [Effectiveness of Pre-training for Few-shot Intent Classification](https://arxiv.org/pdf/2109.05782), [A Comparison of LSTM and BERTfor Small Corpus](https://arxiv.org/pdf/2009.05451)
+
+**B. Transformations des données**
+
+Nous vous présentons l'architecture que nous avions utilisé tiré dans un papier. 
+![Attention Is All You Need](images/image_transformers.png)
+cette architecture, nous a permis de transformer nos inputs et d'attendre une bonne sortie 
