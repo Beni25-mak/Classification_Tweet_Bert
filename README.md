@@ -54,3 +54,11 @@ Nous vous présentons l'architecture que nous avions utilisé tiré dans un papi
 ![Attention Is All You Need](images/image_transformers.png)
 
 Cette architecture, nous a permis de transformer nos inputs et d'attendre une bonne sortie 
+
+**C. Resultats avec gradio**
+
+![sexual_violence](images/text_1.png)
+![Physical_violence](images/text_2.png)
+![Harmful_Traditional_practice](images/text_4.png)
+![economic_violence](images/text_3.png)
+![emotional_violence](images/text_5.png)
