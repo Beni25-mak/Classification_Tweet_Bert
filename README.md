@@ -15,7 +15,7 @@ Ce projet vise à analyser les types des tweets sur un ensemble de données en s
 
 L'objectif principal est de classer les tweets en fonction des types suivants: sexual_violence, Physical_violence, emotional_violence, Harmful_Traditional_practice, economic_violence. 
 
-Comme nous l'avons dit précédement, le projet utilise **BERT** (Bidirectional Encoder Representations from Transformers), un modèle de pointe pour les tâches de traitement du langage naturel, afin d'atteindre une grande précision. Après l'entrainement du modèle par BERT. Nous avons créer une interface avec gradio pour la classification de tweets en fonction de type. gradio a été préfére par l'enseignement vu qu'il offre une interface web conviviale pour l'analyse des types des tweets en temps réel. 
+Comme nous l'avons dit précédement, le projet utilise **BERT** (Bidirectional Encoder Representations from Transformers), un modèle de pointe pour les tâches de traitement du langage naturel, afin d'atteindre une grande précision. Après l'entrainement du modèle par BERT. Nous avons créer une interface avec gradio pour la classification de tweets en fonction de type. gradio a été préfére par l'enseignant vu qu'il offre une interface web conviviale pour l'analyse des types des tweets en temps réel. 
 
 ## Caractéristiques du modèle BERT
 
