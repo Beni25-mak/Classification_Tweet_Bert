@@ -61,4 +61,9 @@ Cette architecture, nous a permis de transformer nos inputs et d'attendre une bo
 ![Physical_violence](images/text_2.png)
 ![Harmful_Traditional_practice](images/text_4.png)
 ![economic_violence](images/text_3.png)
-![emotional_violence](images/text_5.png)
+![emotional_violence](images/text_5.png
+
+
+## CONCLUSION
+
+Selon nos résultats expérimentaux, nous avons signalé que BERT peuvent améliorer les performances du classificateur dans différentes configurations de formation.
