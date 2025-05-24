@@ -14,7 +14,7 @@ Comme nous l'avons dit précédement, le projet utilise **BERT** (Bidirectional 
 
 ## L'Architecture de BERT
 
-![tiré dans le papier de BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding] (images/image_bert.png)
+![tiré dans le papier de BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding] ("images/image_bert.png")
 
 ### 1. Classification des tweets basée sur BERT
 
